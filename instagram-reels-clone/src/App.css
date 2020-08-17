@@ -1,9 +1,6 @@
 html{
   scroll-snap-type: y mandatory;
 }
-.title{
-  color: white;
-}
 
 .app{
   display: grid;
@@ -27,7 +24,7 @@ html{
    height: 65vh;
    background-color: white;
    width: 70%;
-   border-radius: 20px;
+   border-radius: 30px;
    max-width: 450px;
    max-height: 1200px;
    overflow: scroll;
@@ -35,7 +32,7 @@ html{
 }
 
 .app_top{
-  margin-bottom:-150px;
+  margin-bottom:-40px;
 }
 
 /* hide scrollbar for Chrome,Safari and Opera */
